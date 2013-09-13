@@ -5,7 +5,7 @@ Author URI: http://apasionados.es/
 Tags: custom, admin, customize, logo, login
 Requires at least: 3.0.1
 Tested up to: 3.6.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,6 +90,10 @@ Of course we do. That's why we created it. ;-)
 
 == Changelog ==
 
+= 1.1 =
+* Added the possibility to access the plugins settings from the WordPress plugin screen.
+* Fixed a bug with the UPLOADS folder when the option "Organize my uploads into month- and year-based folders" in the MEDIA settings was checked. Now it works correctly, looking for the image in the base-UPLOADS-folder without year and month.
+
 = 1.0 =
 * First stable release.
 
@@ -98,8 +102,8 @@ Of course we do. That's why we created it. ;-)
 
 == Upgrade Notice ==
 
-= 1.0 =
-This is the first stable release. Upgrade immediately.
+= 1.1 =
+Fixed a bug with the UPLOADS folder handling and added the possibility to access the plugins settings from the WordPress plugin screen.
 
 == Contact ==
 
