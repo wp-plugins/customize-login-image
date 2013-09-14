@@ -5,7 +5,7 @@ Author URI: http://apasionados.es/
 Tags: custom, admin, customize, logo, login
 Requires at least: 3.0.1
 Tested up to: 3.6.1
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,6 +90,9 @@ Of course we do. That's why we created it. ;-)
 
 == Changelog ==
 
+= 1.3 =
+* Fixed another bug with the UPLOADS folder handling. Now it should work correctly in all possible configurations of the UPLOADS folder.
+
 = 1.2 =
 * Fixed another bug with the UPLOADS folder handling. Now it should work correctly in all possible configurations of the UPLOADS folder.
 
@@ -105,7 +108,7 @@ Of course we do. That's why we created it. ;-)
 
 == Upgrade Notice ==
 
-= 1.2 =
+= 1.3 =
 Fixed another bug with the UPLOADS folder handling. Now it should work correctly in all possible configurations of the UPLOADS folder.
 
 == Contact ==
