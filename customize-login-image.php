@@ -3,11 +3,11 @@
  Plugin Name: Customize Login Image
  Plugin URI: http://apasionados.es/#utm_source=wpadmin&utm_medium=plugin&utm_campaign=wpcustomizeloginimageplugin 
  Description: This plugin allows you to customize the image and the appearance of the WordPress Login Screen.
- Version: 1.0
+ Version: 1.3
  Author: Apasionados, Apasionados del Marketing, Nunsys
  Author URI: http://apasionados.es
 
- Release notes: 1.0 First release.
+ Release notes: 1.3 release.
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -42,7 +42,7 @@ function cli_logo_file() {
 	} else {
 		$upload_dir = wp_upload_dir();
 		$customize_login_image = $upload_dir['basedir'] . '/customize-login-image.png';
-		$customize_login_image_IMG = $upload_dir['url'] . '/customize-login-image.png';
+		$customize_login_image_IMG = $upload_dir['baseurl'] . '/customize-login-image.png';
 		if (@file_exists($customize_login_image) && is_readable($customize_login_image)) {
 			echo '<style>h1 a { background-image: url("' . $customize_login_image_IMG . '")!important; background-size: auto!important; }</style>';
 		} else {
@@ -61,11 +61,19 @@ function cli_custom_css() {
 	}
 }
 
+function cli_plugin_action_links( $links, $file ) {
+	if ( $file == plugin_basename( dirname(__FILE__).'/customize-login-image.php' ) ) {
+		$links[] = '<a href="' . admin_url( 'options-general.php?page=customize-login-image/customize-login-image-options.php' ) . '">'.__( 'Settings' ).'</a>';
+	}
+	return $links;
+}
+
 add_filter( 'login_headertitle', 'cli_logo_title' );
 add_filter( 'login_headerurl', 'cli_logo_url' );
 add_action( 'login_head', 'cli_logo_file' );
 add_action( 'login_head', 'cli_login_background_color' );
 add_action( 'login_head', 'cli_custom_css' );
+add_filter( 'plugin_action_links', 'cli_plugin_action_links', 10, 2);
 
 require_once( 'customize-login-image-options.php' );
 ?>

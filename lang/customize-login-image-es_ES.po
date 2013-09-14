@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Customize Login Image\n"
-"POT-Creation-Date: 2013-09-07 18:28+0100\n"
-"PO-Revision-Date: 2013-09-07 18:32+0100\n"
+"POT-Creation-Date: 2013-09-14 06:46+0100\n"
+"PO-Revision-Date: 2013-09-14 06:46+0100\n"
 "Last-Translator: Ramon <marketing@apasionados.es>\n"
 "Language-Team: Apasionados del Marketing <info@apasionados.es>\n"
 "Language: es_ES\n"
@@ -11,15 +11,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: O:\\WEBs\\14 WordPress PLUGINS programados\\20130907 "
+"Customize Login Image\\customize-login-image\\customize-login-image\\\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-SearchPath-0: d:\\customize-login-image\n"
+"X-Poedit-SearchPath-0: O:\\WEBs\\14 WordPress PLUGINS programados\\20130907 "
+"Customize Login Image\\customize-login-image\\customize-login-image\n"
 
-#: d:\customize-login-image/customize-login-image-options.php:41
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image.php:29
+#, php-format
+msgid "Go to %1$s"
+msgstr "Ir a %1$s"
+
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image.php:66
+msgid "Settings"
+msgstr "Ajustes"
+
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:41
 msgid "Customize Login Image Options"
 msgstr "Customize Login Image: Opciones "
 
-#: d:\customize-login-image/customize-login-image-options.php:44
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:44
 msgid ""
 "This plugin allows you to customize the image and the appearance of the "
 "WordPress Login Screen."
@@ -27,30 +42,36 @@ msgstr ""
 "Este plugin te permite personalizar la imagen y el aspecto del Login de "
 "WordPress"
 
-#: d:\customize-login-image/customize-login-image-options.php:47
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:47
 msgid "Custom Logo Link"
 msgstr "Enlace personalizado del logo"
 
-#: d:\customize-login-image/customize-login-image-options.php:50
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:50
 msgid "If not specified, clicking on the logo will return you to the homepage."
 msgstr ""
 "Si no se especifica otra URL, el enlace del logo lleva a la página de inicio."
 
-#: d:\customize-login-image/customize-login-image-options.php:55
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:55
 msgid "Custom Logo"
 msgstr "Logo personalizado"
 
-#: d:\customize-login-image/customize-login-image-options.php:58
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:58
 msgid "Upload Image"
 msgstr "Subir imagen"
 
-#: d:\customize-login-image/customize-login-image-options.php:59
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:59
 msgid "Enter a URL or upload logo image. Maximum height: 70px, width: 310px."
 msgstr ""
 "Introduce una URL o sube una imagen. Alto máximo de la imagen: 70px; ancho: "
 "310px."
 
-#: d:\customize-login-image/customize-login-image-options.php:60
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:60
 msgid ""
 "If you do not enter a URL or upload a logo, the default WordPress image will "
 "be used."
@@ -58,7 +79,8 @@ msgstr ""
 "Si no introduces una URL o subes un logo, se mostrará el logo por defecto de "
 "WordPress."
 
-#: d:\customize-login-image/customize-login-image-options.php:61
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:61
 msgid ""
 "You can also place a logo in PNG format called <strong>customize-login-image."
 "png</strong> in your <strong>WordPress Uploads folder</strong>, which will "
@@ -69,33 +91,47 @@ msgstr ""
 "Este logo se utilizará cuando no se haya introducido una URL o no se haya "
 "subido un logo a través de la administración y el archivo exista."
 
-#: d:\customize-login-image/customize-login-image-options.php:61
-msgid "Your WordPress Upload folder is: "
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:61
+msgid "Your WordPress Upload folder is:"
 msgstr "Tu carpeta UPLOADS de WordPress es:"
 
-#: d:\customize-login-image/customize-login-image-options.php:61
-msgid ". Click on the file name to test if file can be found by the plugin: "
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:61
+msgid "Click on the file name to test if file can be found by the plugin: "
 msgstr ""
-". Haz click sobre el nombre del archivo para comprobar si el plugin "
-"encuentra el archivo:"
+"Haz click sobre el nombre del archivo para comprobar si el plugin encuentra "
+"el archivo:"
 
-#: d:\customize-login-image/customize-login-image-options.php:66
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:61
+msgid ""
+"<strong>Please note</strong> that if you have enabled the MEDIA option: "
+"Organize my uploads into month- and year-based folders, you must upload the "
+"image to the Base-UPLOADS-folder, without year and month (above you can see "
+"the exact location where to UPLOAD."
+msgstr ""
+"<strong>Ten en cuenta que</strong> si tienes activada la opción en MEDIOS: "
+"Organizar mis archivos subidos en carpetas basadas en mes y año, tienes que "
+"subir el logo al directorio UPLOADS base, sin año y mes (arriba puedes ver "
+"la ubicación exacta a la cual subir el logo)."
+
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:66
 msgid "Custom Login Background"
 msgstr "Personaliza el color de fondo"
 
-#: d:\customize-login-image/customize-login-image-options.php:74
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:74
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: d:\customize-login-image/customize-login-image-options.php:77
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:77
 msgid "Add your own css to the WordPress dashboard."
 msgstr "Añade CSS personalizado a la pantalla de login."
 
-#: d:\customize-login-image/customize-login-image-options.php:82
+#: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
+#: Image\customize-login-image\customize-login-image/customize-login-image-options.php:82
 msgid "Save Changes"
 msgstr "Guardar cambios"
-
-#: d:\customize-login-image/customize-login-image.php:29
-#, php-format
-msgid "Go to %1$s"
-msgstr "Ir a %1$s"
