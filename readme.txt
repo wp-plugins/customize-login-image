@@ -5,7 +5,7 @@ Author URI: http://apasionados.es/
 Tags: custom, admin, customize, logo, login
 Requires at least: 3.0.1
 Tested up to: 3.6.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,7 +41,7 @@ This first release is avaliable in English and Spanish. In the "lang" folder we 
 If you would like the plugin in your language and you're good at translating, please drop us a line at [Contact us](http://apasionados.es/contacto/index.php?desde=wordpress-org-customize-login-image-home).
 
 = Further Reading =
-You can access the description of the plugin in Spanish at: [Customize Login Image en espa&ntilde;ol](http://apasionados.es/blog/).
+You can access the description of the plugin in Spanish at: [Customize Login Image en espa&ntilde;ol](http://apasionados.es/blog/customize-login-image-wordpress-plugin-1726/).
 
 == Screenshots ==
 
@@ -90,6 +90,9 @@ Of course we do. That's why we created it. ;-)
 
 == Changelog ==
 
+= 1.2 =
+* Fixed another bug with the UPLOADS folder handling. Now it should work correctly in all possible configurations of the UPLOADS folder.
+
 = 1.1 =
 * Added the possibility to access the plugins settings from the WordPress plugin screen.
 * Fixed a bug with the UPLOADS folder when the option "Organize my uploads into month- and year-based folders" in the MEDIA settings was checked. Now it works correctly, looking for the image in the base-UPLOADS-folder without year and month.
@@ -102,8 +105,8 @@ Of course we do. That's why we created it. ;-)
 
 == Upgrade Notice ==
 
-= 1.1 =
-Fixed a bug with the UPLOADS folder handling and added the possibility to access the plugins settings from the WordPress plugin screen.
+= 1.2 =
+Fixed another bug with the UPLOADS folder handling. Now it should work correctly in all possible configurations of the UPLOADS folder.
 
 == Contact ==
 

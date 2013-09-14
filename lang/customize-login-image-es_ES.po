@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Customize Login Image\n"
-"POT-Creation-Date: 2013-09-13 17:17+0100\n"
-"PO-Revision-Date: 2013-09-13 17:17+0100\n"
+"POT-Creation-Date: 2013-09-14 06:46+0100\n"
+"PO-Revision-Date: 2013-09-14 06:46+0100\n"
 "Last-Translator: Ramon <marketing@apasionados.es>\n"
 "Language-Team: Apasionados del Marketing <info@apasionados.es>\n"
 "Language: es_ES\n"
@@ -98,10 +98,10 @@ msgstr "Tu carpeta UPLOADS de WordPress es:"
 
 #: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
 #: Image\customize-login-image\customize-login-image/customize-login-image-options.php:61
-msgid ". Click on the file name to test if file can be found by the plugin: "
+msgid "Click on the file name to test if file can be found by the plugin: "
 msgstr ""
-". Haz click sobre el nombre del archivo para comprobar si el plugin "
-"encuentra el archivo:"
+"Haz click sobre el nombre del archivo para comprobar si el plugin encuentra "
+"el archivo:"
 
 #: O:\WEBs\14 WordPress PLUGINS programados\20130907 Customize Login
 #: Image\customize-login-image\customize-login-image/customize-login-image-options.php:61

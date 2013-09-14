@@ -3,11 +3,11 @@
  Plugin Name: Customize Login Image
  Plugin URI: http://apasionados.es/#utm_source=wpadmin&utm_medium=plugin&utm_campaign=wpcustomizeloginimageplugin 
  Description: This plugin allows you to customize the image and the appearance of the WordPress Login Screen.
- Version: 1.1
+ Version: 1.2
  Author: Apasionados, Apasionados del Marketing, Nunsys
  Author URI: http://apasionados.es
 
- Release notes: 1.1 Second release.
+ Release notes: 1.2 Second release.
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
