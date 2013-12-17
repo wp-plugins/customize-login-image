@@ -4,8 +4,8 @@ Donate link: http://apasionados.es/
 Author URI: http://apasionados.es/
 Tags: custom, admin, customize, logo, login
 Requires at least: 3.0.1
-Tested up to: 3.6.1
-Stable tag: 1.3
+Tested up to: 3.8.0
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +35,7 @@ We had been using the WordPress plugin [Customize Admin](http://wordpress.org/pl
 
 This is why we decided to create a new plugin that doesn't have the two issues we found while using Customize Admin. Nervertheless it is a freat work from Johan van der Wijk.
 
-= DoFollow Case by Case Plugin in your Language! =
+= Customize Login Image Plugin in your Language! =
 This first release is avaliable in English and Spanish. In the "lang" folder we have included the necessarry files to translate this plugin.
 
 If you would like the plugin in your language and you're good at translating, please drop us a line at [Contact us](http://apasionados.es/contacto/index.php?desde=wordpress-org-customize-login-image-home).
@@ -90,6 +90,9 @@ Of course we do. That's why we created it. ;-)
 
 == Changelog ==
 
+= 2.0 =
+* Added compatibility to WordPress 3.8 "Parker".
+
 = 1.3 =
 * Fixed another bug with the UPLOADS folder handling. Now it should work correctly in all possible configurations of the UPLOADS folder.
 
@@ -108,8 +111,8 @@ Of course we do. That's why we created it. ;-)
 
 == Upgrade Notice ==
 
-= 1.3 =
-Fixed another bug with the UPLOADS folder handling. Now it should work correctly in all possible configurations of the UPLOADS folder.
+= 2.0 =
+Added compatibility to WordPress 3.8 "Parker". Thanks to kitchin (http://wordpress.org/support/profile/kitchin) for the proposed fix.
 
 == Contact ==
 
