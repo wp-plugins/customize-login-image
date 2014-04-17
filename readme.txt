@@ -4,7 +4,7 @@ Donate link: http://apasionados.es/
 Author URI: http://apasionados.es/
 Tags: custom, admin, customize, logo, login
 Requires at least: 3.0.1
-Tested up to: 3.8.0
+Tested up to: 3.9.0
 Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
